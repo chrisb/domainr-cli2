@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "domainr/cli2"
+
+Domainr::CLI2::Base.start(Domainr::CLI2::Base.rewrite_arguments(ARGV))
